@@ -8,7 +8,7 @@ git status
 git show
 git log --stat -M
 git remote add origin https://github.com/kumarorg/testrepository.git
-git push -u origin master
+git push -u origin master   *// origin is the name of the URL (or) tag name of the URL//*
 ##############################git Branch creation############################################################
 git checkout -b master-first1
 git checkout master-first1
