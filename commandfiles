@@ -17,7 +17,14 @@ git branch
 vi test1.yml
 git commit -m "firstcommit"
 git push -u origin master-first1
-###############################Git Branch merger##############################################################
+
+remove repo from local repo (from server)
+now we need only branch1 to get cloned in the server from github
+
+git clone -b branch1 https://github.com/ananthmocharla/ananth123.git  //cloned only branch //
+               |                          |
+               branch name            master repo url
+ ###############################Git Branch merger##############################################################
 git checkout master
 git merge master-first1
 git branch
